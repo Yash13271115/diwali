@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Berkshire Swash';
+    src: url('../public/fonts/BerkshireSwash-Regular.woff2') format('woff2'),
+        url('../public/fonts/BerkshireSwash-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('../public/fonts/DancingScript-Regular.woff2') format('woff2'),
+        url('../public/fonts/DancingScript-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Great Vibes';
+    src: url('../public/fonts/GreatVibes-Regular.woff2') format('woff2'),
+        url('../public/fonts/GreatVibes-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gurajada';
+    src: url('../public/fonts/Gurajada.woff2') format('woff2'),
+        url('../public/fonts/Gurajada.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src: url('../public/fonts/MontserratAlternates-Regular.woff2') format('woff2'),
+        url('../public/fonts/MontserratAlternates-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../public/fonts/Pacifico-Regular.woff2') format('woff2'),
+        url('../public/fonts/Pacifico-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../public/fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('../public/fonts/PlayfairDisplay-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satisfy';
+    src: url('../public/fonts/Satisfy-Regular.woff2') format('woff2'),
+        url('../public/fonts/Satisfy-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bodoni Moda';
+    src: url('../public/fonts/BodoniModa-Regular.woff2') format('woff2'),
+        url('../public/fonts/BodoniModa-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
