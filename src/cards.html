@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="../public/icons/fontawesome-6.6/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="card-bg" class="absolute flex w-full h-screen justify-center items-center text-center top-0">
+      <div id="card-font-color">
+        <h2 id="card-title" class="text-6xl font-bold uppercase">Happy</h2>
+        <h2 id="card-subtitle" class="text-8xl font-bold uppercase">Diwali</h2>
+      </div>
+    </div>
+
+    <div class="absolute top-10 right-10">
+      <div class="flex gap-3">
+        <Button onclick="downloadCard()" class="bg-gray-400 opacity-50 p-3 rounded-xl">
+          <span class="text-gray-50 text-lg">
+            <i class="fa-solid fa-download"></i>
+          </span>
+        </Button>
+        <Button onclick="return location.reload()" class="bg-gray-400 opacity-50 p-3 rounded-xl">
+          <span class="text-gray-50 text-lg">
+            <i class="fa-solid fa-rotate-right"></i>
+          </span>
+        </Button>  
+      </div>
+    </div>
+    <!-- <script src="../public/plugins/html2canvas/html2canvas.min.js"></script> -->
+    <script src="../public/plugins/dom-to-image/dom-to-image.min.js"></script>
+    <script defer src="./cards.js"></script>
+  </body>
+</html>

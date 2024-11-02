@@ -15,7 +15,7 @@ const firecrackers = [
         id: 3,
         name: 'Chakri',
         icon: '../public/images/firecrackers/chakri.png',
-        effect: '../public/images/firecrackers/firecracker.gif'
+        effect: '../public/images/firecrackers/chakri.gif'
     },
     {
         id: 4,
@@ -64,7 +64,7 @@ const showModal = (frkId) => {
         let left = getRandomInt(0,width);
         modal.insertAdjacentHTML('beforeend', `
             <div class="absolute z-50 effect" style="top: ${top}px; left: ${left}px;">
-                <img src="${firecracker.icon}" width="64" alt="">
+                <img src="${firecracker.effect}" width="64" alt="">
             </div>
         `);
     }
