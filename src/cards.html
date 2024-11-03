@@ -11,13 +11,17 @@
   </head>
   <body>
     <div id="card-bg" class="absolute flex w-full h-screen justify-center items-center text-center top-0">
-      <div id="card-font-color">
-        <h2 id="card-title" class="text-6xl font-bold uppercase">Happy</h2>
-        <h2 id="card-subtitle" class="text-8xl font-bold uppercase">Diwali</h2>
+      <div id="card-font-color" class="z-50">
+        <h2 id="card-title" class="text-2xl md:text-6xl font-bold uppercase">Happy</h2>
+        <h2 id="card-subtitle" class="text-4xl md:text-8xl font-bold uppercase">Diwali</h2>
+        <p id="card-description" class="mx-auto font-bold my-3"></p>
+        <h4 id="card-creater" class="text-xl md:text-4xl font-bold uppercase">Yash Prajapti</h4>
+      </div>
+      <div id="bg-image" class="absolute flex max-w-full max-h-screen justify-center items-center text-center top-0 left-0 w-full h-full opacity-15">
       </div>
     </div>
-
-    <div class="absolute top-10 right-10">
+    
+    <div class="absolute top-10 right-10 z-50">
       <div class="flex gap-3">
         <Button onclick="downloadCard()" class="bg-gray-400 opacity-50 p-3 rounded-xl">
           <span class="text-gray-50 text-lg">
@@ -30,6 +34,14 @@
           </span>
         </Button>  
       </div>
+    </div>
+
+    <div class="absolute top-10 left-10">
+      <a href="./index.html" class="bg-gray-400 opacity-50 p-3 rounded-xl">
+        <span class="text-gray-50 text-lg">
+          <i class="fa-solid fa-arrow-left"></i>
+        </span>
+      </a>
     </div>
     <!-- <script src="../public/plugins/html2canvas/html2canvas.min.js"></script> -->
     <script src="../public/plugins/dom-to-image/dom-to-image.min.js"></script>
